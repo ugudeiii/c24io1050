@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roller Skates Ulaanbaatar</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Water+Brush&display=swap' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (min-width: 792px) {
+
+        .section1 {
+            background-color: rgb(211, 160, 58);
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 0 20px;
+            border-radius: 30px;
+        }
+
+        .navbar-nav .nav-link::after {
+            content: ''; 
+            position: absolute; 
+            width: 0; 
+            height: 5px; 
+            background-color: #dcd7c3;
+            left: 5%;
+            bottom: 0; 
+            transition: width 0.3s ease, left 0.3s ease;  
+    } 
+
+    .navbar-nav .nav-link:hover::after {
+            width: 90%;
+    }
+
+    .navbar-nav .nav-link {
+            padding: 10px 20px;
+            transition: color 0.3s;
+    }
+
+        .section1 .main-text {
+            font-size: 72px;
+            font-family: 'Water Brush', sans-serif;
+            color: black;
+            text-align: center;
+            margin-top: 200px;
+            margin-left: 20px;
+        }
+
+        .content-box {
+            background-color: rgb(240, 233, 209);
+            padding: 40px;
+            border-radius: 45px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            height: 280px;
+            /*text-align: center;*/
+            /* z-index: 5; */
+            position: absolute; 
+            margin-right: 160px;
+            right: 80px;
+            top: 45%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 40px; 
+            transition: all 0.3s ease;
+        }
+
+        .content-box:hover {
+            box-shadow: 0 25px 75px rgba(0, 0, 0, 0.2);
+            transform: translateY(-50%) scale(1.05);
+        }
+
+        .content-box .logo {
+            margin-bottom: 5px;
+        }
+
+        .content-box .logo img {
+            width: 190px;
+            height: auto;
+            text-align: right;
+        }
+
+        .content-box .text {
+            font-size: 20px;
+            color: #414040;
+            line-height: 1.5;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .content-box .icon {
+            font-size: 40px;
+            color: #ac7823;
+            margin-right: 20px;
+            text-align: left;
+        }
+
+        .overlay-content-box {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 20%;
+            right: 11%;
+            z-index: 10;
+            width: 400px;
+            max-height: 80px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            font-size: 36px;
+            color: #090909;
+            font-family: 'Water Brush', sans-serif;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .overlay-content-box:hover {
+            transform: scale(1.05); 
+        }
+
+            .main-text {
+                font-size: 50px;
+            }
+
+        .content-box .content-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .content-box .content-wrapper .logo,
+        .content-box .content-wrapper .icon {
+            margin-right: 20px;
+            margin-top: 40px;
+        }
+
+        .content-box .content-wrapper .text {
+            margin-left: 5px;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #484848;
+            line-height: 1.5;
+        }
+    }
+
+        
+        .section2 {
+            margin-top: 20px;
+            background-color: rgb(247, 247, 249);
+            display: flex;
+            flex-direction: column; 
+            height: auto;
+            justify-content: center;
+            padding: 0 20px;
+            border-radius: 30px;
+        }
+
+        .text1{
+        /*font-family: 'Pacifico', cursive; */
+        /*font-family: 'Dancing Script', cursive; */
+            font-family: 'Water Brush', sans-serif;
+        /*font-weight: 600; */
+            color:#1e6226;
+            margin-top: 115px;
+            margin-left: 150px;
+            font-size: 40px !important;
+        } 
+
+
+        .text2 {
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: 8px;
+            color: #4e4e4e;
+            margin-left: 150px;
+            margin-top: 10px;
+            line-height: 1.2; 
+            word-wrap: break-word;
+}
+
+.content-box2 {
+            background-color: #f3b666;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 137%; 
+            right: 44%; 
+            z-index: 10;
+            width: 570px;
+            max-height: 80px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            font-size: 26px;
+            color: #090909;
+            font-family: 'Dancing Script', cursive; 
+            /*font-family: 'Water Brush', sans-serif; */
+            text-align: center;
+            /*transition: transform 0.2s ease-in-out;  */
+        }
+
+        .picture-box2 {
+            background-color: #2a6225;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 100%; 
+            right: 13%; 
+            z-index: 10;
+            width: 560px;
+            height: 310px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out; /* Add smooth transition */
+        }
+
+        .picture-box2:hover {
+            transform: scale(1.05); 
+        }
+
+
+        .picture2-box2 {
+            background-color: #2a6225;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute; 
+            top: 156%; 
+            right: 52%; 
+            z-index: 10;
+            width: 560px;
+            height: 310px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .picture2-box2:hover {
+            transform: scale(1.05); 
+        }
+
+        .schedule-wraper {
+            position: relative;
+            margin-top: 180px;
+            margin-left: 760px;
+        }
+
+        .schedule1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #515050;  
+            font-size: 22px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .schedule1 i {
+            color: #f8ca86;  
+            font-size: 30px; 
+            margin-right: 10px;
+            vertical-align: middle;  
+        }
+
+        .schedule2 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #515050;
+            top: 0;
+            left: 0;
+            font-size: 22px;
+            position: absolute;
+            z-index: 1;
+            margin-left: 360px;
+        }
+
+        .price-wrapper {
+            position: relative;
+            margin-left: 20px;
+            margin-top: 175px
+        }
+
+        .price1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:#515050; 
+            font-size: 22px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .price1 i {
+            color: #55785a;  
+            font-size: 30px; 
+            margin-right: 10px;
+            vertical-align: middle;  
+}
+
+        .price2 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #515050;
+            top: 0;
+            left: 0;
+            font-size: 22px;
+            position: absolute;
+            z-index: 1;
+            margin-left: 360px;
+            }
+
+
+        .content2-box2 {
+            background-color: #f3b666;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 195%; 
+            right: 34%; 
+            z-index: 10;
+            width: 360px;
+            max-height: 65px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            font-size: 26px;
+            color: #2c2c2c;
+            font-family: 'Dancing Script', cursive; 
+            /*font-family: 'Water Brush', sans-serif; */
+            text-align: center;
+            /*transition: transform 0.2s ease-in-out;  */
+        }
+
+        /*.content2-box2:hover {
+            transform: scale(1.05); 
+        } */
+
+        .picture3-box2 {
+            background-color: #2a6225;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 212%; 
+            right: 13%; 
+            z-index: 10;
+            width: 560px;
+            height: 310px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out; 
+        }
+
+        .picture3-box2:hover {
+            transform: scale(1.05); 
+        }
+
+        .content3-box2 {
+            background-color: #f3b666;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute; 
+            top: 250%; 
+            right: 44%; 
+            z-index: 10;
+            width: 360px;
+            max-height: 65px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            font-size: 26px;
+            color: #2c2c2c;
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            /*font-family: 'Water Brush', sans-serif; */
+        }
+
+        .text3 {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Water Brush', sans-serif;
+            color:#2c2c2c;
+            margin-top: 200px;
+        }
+
+        .grid-container {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr); 
+    position: relative;
+    margin-top: 60px;
+    margin-left: 67px;
+    gap: 40px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item:nth-child(odd) {
+    transform: translateY(22px);
+}
+
+.grid-item:nth-child(even) {
+    transform: translateY(-22px); 
+}
+
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+        .text4 {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Water Brush', sans-serif;
+            color:#2c2c2c;
+            margin-top: 120px;
+}
+
+.wrapper {
+    position: relative; 
+    width: 100%; 
+    min-height: 620px;
+}
+
+.product-box1, .product-box2, .product-box3 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 35px;
+    position: absolute;
+    z-index: 10;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: #090909;
+    margin-bottom: 20px;
+}
+
+.product-box1 {
+    top: 6%;
+    right: 67%;
+}
+
+.product-box2 {
+    top: 6%;
+    right: 37%;
+}
+
+.product-box3 {
+    top: 6%;
+    right: 7%;
+}
+
+.product-info, .product-info2 , .product-info3 {
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.product-info p, .product-info2 p , .product-info3 p {
+    margin: 5px 0;
+}
+
+.product-box1 .carousel-inner, .product-box2 .carousel-inner , .product-box3 .carousel-inner {
+    height: 100%;
+}
+
+.product-box1 .carousel-item img, .product-box2 .carousel-item img , .product-box3 .carousel-item img {
+    border-radius: 30px;
+    height: 340px;
+    width: 280px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-box1 .carousel-item img:hover, .product-box2 .carousel-item img:hover , .product-box3 .carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    bottom: 0;
+    text-align: left;
+    color: #7b7a7a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.text5 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Water Brush', sans-serif;
+    color:#2c2c2c;
+    margin-top: 50px;
+}
+
+.moreInfo2 {
+            background-color: #4e7a5a;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 548%; 
+            right: 34%; 
+            z-index: 10;
+            max-width: 800px;
+            font-size: 26px;
+            height: 70px;
+            color:#090909;
+            text-align: center;
+            font-family: 'Dancing Script' , cursive;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .moreInfo2:hover {
+            transform: scale(1.05); 
+        }
+
+
+        .moreInfo1 {
+            background-color: #d5d5d5;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 510%; 
+            right: 53%; 
+            z-index: 10;
+            width: 560px;
+            height: 300px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out; 
+        }
+
+        .moreInfo1:hover {
+            transform: scale(1.05); 
+        }
+
+        .moreInfo1 img {
+            border-radius: 30px;
+            height: 265px;
+            width: 400px;
+        }
+
+        .moreInfo1 p {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:#2c2c2c;
+            text-align: right;
+            position: relative;
+            bottom: 90%;
+            font-size: 24px;
+        }
+
+        .moreInfo3 {
+            background-color: #4e7a5a;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 495%; 
+            right: 32%; 
+            z-index: 10;
+            max-width: 600px;
+            font-size: 26px;
+            height: 70px;
+            color:#090909;
+            text-align: center;
+            font-family: 'Dancing Script' , cursive;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .moreInfo3:hover {
+            transform: scale(1.05); 
+        }
+
+        
+        .moreInfo4 {
+            background-color: #d5d5d5;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 500%; 
+            right: 10%; 
+            z-index: 10;
+            width: 560px;
+            height: 300px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out; 
+        }
+
+        .moreInfo4 img {
+            border-radius: 30px;
+            width: 400px;
+            height: 260px;
+        }
+
+        .moreInfo4 p {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:#2c2c2c;
+            text-align: right;
+            position: relative;
+            bottom: 80%; 
+            font-size: 24px;
+        }
+
+        .moreInfo4:hover {
+            transform: scale(1.05);
+        }
+
+            .text6 {
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Water Brush', sans-serif;
+            color:#2c2c2c;
+            margin-top: 640px;
+        }
+
+        .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    position: relative;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.grid-item2 {
+    position: relative;
+    overflow: hidden;
+    max-width: 600px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.grid-item2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item2:nth-child(odd) {
+    transform: translateY(22px);
+}
+
+.grid-item2:nth-child(even) {
+    transform: translateY(-22px); 
+}
+
+.grid-item2:hover {
+    transform: scale(1.05);
+} 
+
+.text7 {
+    text-align: center;
+            font-size: 40px;
+            font-family: 'Water Brush', sans-serif;
+            color:#2c2c2c;
+            margin-top: 140px;
+}
+
+.footer {
+    background-color: #2f2f2f;
+    color: #fff;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-logo .logo {
+    max-width: 260px;
+}
+
+.footer-contact,
+.footer-social {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-contact ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact li,
+.footer-social li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-contact li i,
+.footer-social li i {
+    margin-right: 10px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #a59e17;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media (max-width: 800px) {
+    .section1 {
+        height: 102vh;  
+        padding-top: 10px;
+        background-color: rgb(211, 160, 58);
+        border-radius: 30px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .main-text {
+        margin-top: 250px; 
+        font-size: 40px;   
+        text-align: center;
+        font-family: 'Water Brush', sans-serif;
+        color: black;
+    }
+
+    .content-box {
+        background-color: rgb(240, 233, 209);
+        padding: 20px;
+        border-radius: 45px;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+        max-width: 90%;
+        height: auto;
+        margin-top: 20px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-box .logo img {
+        width: 100px;
+        height: auto;
+        text-align: right;
+    }
+
+    .content-box .text {
+        font-size: 14px;
+        color: #414040;
+        line-height: 1.5;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .overlay-content-box {
+        width: 90%;  
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        padding: 15px;
+        font-size: 30px;
+        font-family: 'Water Brush', sans-serif;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+
+    .section2 {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .text1 {
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 16px;
+        margin-top: 5px;
+        text-align: start; 
+    }
+
+
+    .picture-box2 , .picture2-box2 {
+        display: none;
+    }
+    .content-box2 {
+        flex-direction: column;
+    }
+.picture3-box2 {
+    background-color: #2a6225;
+            padding: 20px;
+            border-radius: 30px;
+            position: absolute;
+            top: 212%; 
+            right: 13%; 
+
+            z-index: 10;
+            width: 500px;
+            height: 250px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .picture3-box2 , .picture-box2  , .picture2-box2{
+ display:none
+    }
+
+    .price-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 70px;
+        position: relative;
+        text-align: start; 
+        width: 90%;
+        margin-right: 90px;
+        justify-content: center ;
+    }
+
+    .price1, .price2 {
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .schedule-wraper {
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 0;
+        position: relative;
+        text-align: center;
+        width: 90%; 
+        margin: 0 auto;
+    }
+
+    .schedule1, .schedule2 {
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .content2-box2, .content3-box2 , .content-box2{
+        display: none; 
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; 
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 100%;
+    }
+
+    .grid-item {
+        height: 350px; 
+    }
+
+    .product-box1, .product-box2, .product-box3 {
+        display: none !important;
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: -9999px; 
+    }
+
+    .moreInfo1, .moreInfo2, .moreInfo3, .moreInfo4 {
+        display: none !important;
+        visibility: hidden;
+        height: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: -9999px; 
+    }
+
+    .text4, .text5 {
+        display: none !important;
+    }
+
+    .grid-container2 {
+        grid-template-columns: 1fr;
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
+
+    .grid-item2 {
+        max-width: 100%; 
+        height: 350px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-contact, .footer-social {
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: transparent; padding: 10px 20px; z-index: 9999;">
+            <div class="container-fluid d-flex align-items-center justify-content-start">
+                <div class="logo">
+                    <img src="smoky.png" id="navbar-logo"alt="Logo" style="height: 200px; width: 200px; margin-right: 30px; margin-left: 50px; cursor: pointer; margin-top: 40px;">
+                </div>
+    
+                
+                <div class="d-block d-sm-none">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                
+                <div class="d-none d-sm-block">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-4 mb-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us" style="color: rgb(220, 219, 209); font-size: 22px; font-weight: 700; font-family: 'Open Sans', sans-serif; padding: 10px 20px; position: relative;">
+                                Shop
+                                <i class='bx bxs-shopping-bag'></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shop" style="color: rgb(220, 219, 209); font-size: 22px; font-weight: 700; font-family: 'Open Sans', sans-serif; padding: 10px 20px; position: relative;">
+                                About Us
+                                <i class='bx bxs-navigation'></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us" style="color: rgb(220, 219, 209); font-size: 22px; font-weight: 700; font-family: 'Open Sans', sans-serif; padding: 10px 20px; position: relative;">
+                                Contact Us
+                                <i class='bx bxl-meta'></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+        
+        <div class="main-text">
+            Roller Skates Ulaanbaatar
+        </div>
+
+        <div class="content-box">
+            <div class="content-wrapper">
+                <div class="icon">
+                    <i class="fas fa-skating"></i>
+                </div>
+                <div class="logo">
+                    <img src="smoky4 (1).png" alt="Logo">
+                </div>
+                <div class="text">
+                    <p>Sainuu? Ta yg odoo manai alban ysnii web huudsaar uilchluulj baina. Ireeduid ulam iheer shinechlegdeh bolnoo! </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay-content-box">
+            <p>Welcome to Roller Skates ub!</p>
+        </div>
+    </div>
+
+    <div class="section2">
+        <div class="text1">
+            <p>--- Manaih ni ! 
+                <!--<i class='bx bx-street-view'></i> -->
+            </p>
+        </div>
+        <div class="text2">
+            <p>Mongol ulsad huuhed zaluuchuudiin chuluut tsagiig </p>
+            <p>dursamjtaigaar unguruuleh orching bii bolgoh </p>
+            <p>Roller Skate gej yu ve gedgiin taniulah zorilgotoi</p>
+            <p>zaluuchuudiin negden hiij bui business ym !</p>
+        </div>
+
+        <div class="picture2-box2">
+            <img src="smoky6.jpg" height="270" width="520">
+        </div>
+        
+        <div class="picture-box2">
+            <img src="smoky2.jpg" height="270" width="520">
+        </div>
+        <div class="content-box2">
+            <p>Duguit teshuur ni gutland behelsen duguigaar gulgah zo?</p>
+        </div>
+
+        <div class="schedule-wraper" id="shop">
+            <div class="schedule1">
+                <p><i class="fas fa-bars"></i> Ajliin udruuded</p>
+                <br>
+                <p><i class="fas fa-bars"></i> Amraltiin udruuded</p>
+                <br>
+                <p><i class="fas fa-bars"></i> Olon niitiin amraltiin udruuded</p>
+            </div>
+    
+            <div class="schedule2">
+                <p>11:00 AM -- 22:00 PM</p>
+                <br>
+                <p>11:00 AM -- 24:00 PM</p>
+                <br>
+                <p>----------------------------</p>
+            </div>
+            </div>
+
+        <div class="content2-box2">
+            <p>Tsagiin Huvaari
+                <!--<i class='bx bx-table'></i>-->
+            </p>
+        </div>
+<div class="containter2">
+        <div class="picture3-box2">
+            <img src="smoky8.jpg"  height="270" width="520">
+        </div>
+
+        <div class="price-wrapper">
+            <div class="price1">
+                <p><i class="fas fa-clock"></i> Neg Tsagiin </p>
+                <br>
+                <p><i class="fas fa-clock"></i> Hoyr Tsagiin </p>
+                <br>
+                <p><i class="fas fa-clock"></i> Gurvan Tsagiin </p>
+            </div>
+
+            <div class="price2">
+                <p>5000 tugrug</p>
+                <br>
+                <p>9000 tugrug</p>
+                <br>
+                <p>12000 tugrug</p>
+            </div>
+        </div>
+</div>
+
+        <div class="content3-box2">
+            <p>Uniin Medeelel</p>
+        </div>
+
+        <div class="text3">
+            <p>---Uur zuragnuudaas sonirhuulval---</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="dark.jpg" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="dark1.jpg" alt="Image 2">
+            </div>
+            <div class="grid-item">
+                <img src="dark2.jpg" alt="Image 3">
+            </div>
+            <div class="grid-item">
+                <img src="dark3.jpg" alt="Image 4">
+            </div>
+        </div>
+
+        <div class="text4" id="about-us">
+            <p>---Bidnii hudaldaalj bui buteegdehuun---</p>
+        </div>
+
+        <div class="wrapper">
+            <div class="product-box1">
+                <div class="d-block d-sm-none">
+                    <img src="skate3.jpg" class="img-fluid mb-3 product-box-img">
+                    <img src="skate1.jpg" class="img-fluid mb-3 product-box-img">
+                    <img src="skate2.jpg" class="img-fluid mb-3 product-box-img">
+                    <div class="product-info">
+                        <p>Price: 280,000 Tugrug</p>
+                        <p>Type: Roller Skate</p>
+                        <p>Tulhuur Dagaldana</p>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block">
+                    <div id="carouselExampleSlidesOnly1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="skate3.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="skate1.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="skate2.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block product-info">
+                        <p>Price: 280,000 Tugrug</p>
+                        <p>Type: Roller Skate</p>
+                        <p>Tulhuur Dagaldana</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-box2">
+                <div class="d-block d-sm-none">
+                    <img src="shirt.jpg" class="img-fluid mb-3 product-box-img">
+                    <img src="shirt1.jpg" class="img-fluid mb-3 product-box-img">
+                    <img src="shirt2.jpg" class="img-fluid mb-3 product-box-img">
+                    <div class="product-info3">
+                        <p>Price: 100,000 Tugrug</p>
+                        <p>Type: T-Shirt</p>
+                        <p>Size: Manaihtai Holbogdono uu</p>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block">
+                    <div id="carouselExampleSlidesOnly2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="shirt.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="shirt1.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="shirt2.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block product-info2">
+                        <p>Price: 100,000 Tugrug</p>
+                        <p>Type: T-Shirt</p>
+                        <p>Size: Manaihtai Holbogdono uu</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product-box3">
+                <div class="d-block d-sm-none">
+                    <img src="blue.jpg" class="img-fluid mb-3 product-box-img">
+                    <img src="blue1.jpg" class="img-fluid mb-3 product-box-img">
+                    <img src="blue2.jpg" class="img-fluid mb-3 product-box-img">
+                    <div class="product-info3">
+                        <p>Price: 100,000 Tugrug</p>
+                        <p>Type: T-Shirt</p>
+                        <p>Size: Manaihtai Holbogdono uu</p>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block">
+                    <div id="carouselExampleSlidesOnly3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="blue.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="blue1.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="blue2.jpg" class="d-block w-100 product-box-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-caption d-none d-md-block product-info3">
+                        <p>Price: 260,000 Tugrug</p>
+                        <p>Type: RollerSkate</p>
+                        <p>Size: Manaihtai Holbogdono uu  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+            <div class="text5">
+                <p> ---Manai busad zuilsiin huvid--- </p>
+            </div>
+
+            <div class="moreInfo1">
+                <img src="closed.jpg">
+                <p>WE</p>
+                <br>
+                <p>ARE</p>
+                <br>
+                <p>CLOSED!</p>
+            </div>
+
+            <div class="moreInfo2">
+                <p>Manaih ni gadaa talbain Roller uchraas uvliin ulirald haagddag shu!</p>
+            </div>
+
+
+            <div class="moreInfo4">
+                <img src="closed2.jpg" height="200px" width="300px">
+                <p>IF</p>
+                <br>
+                <p>YOUR</p>
+                <br>
+                <p>BIRTHDAY!</p>
+            </div>
+
+            <div class="moreInfo3">
+                <p>Hervee ta tursun udruuruu oroh ym bol unegui shu!</p>
+            </div>
+
+            <div class="text6">
+                <p>---Mashingui udruud deh uil ajillagaa---</p>
+            </div>
+
+            <div class="grid-container2">
+                <div class="grid-item2">
+                    <img src="nolife.jpg" alt="Image 1">
+                </div>
+                <div class="grid-item2">
+                    <img src="nolife2.jpg" alt="Image 2">
+                </div>
+            </div>
+
+            <div class="text7">
+                <p>---Huudsaar maani zochilsond bayrlalaa!---</p>
+            </div>
+
+            </div>
+
+<section class="footer" id="contact-us">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="smoky12.png" alt="Logo" class="logo">
+        </div>
+        <div class="footer-contact">
+            <h3>Bidentei Holbogdhiig Husvel:</h3>
+            <ul>
+                <li><i class="fas fa-phone-alt"></i> +976 --------------- </li>
+                <li><i class="fas fa-envelope"></i> rollerskateub@gmail.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> BZD - 26 khoroo, Ulaanbaatar  13313 </li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Manai Hayguud:</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/RollerRinkUlaanbaatar" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/rollerskates.ulaanbaatar/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Roller Skates Ulaanbaatar.</p>
+    </div>
+</section>
+<script>
+document.getElementById("navbar-logo").addEventListener("click", function () {
+            window.scrollTo({
+            top: 0, 
+            behavior: "smooth" 
+            });
+        })
+        </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
